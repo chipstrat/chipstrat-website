@@ -1,0 +1,36 @@
+{
+  "name": "Sea & Poppy",
+  "colors": [
+    {
+      "name": "Salt",
+      "hex": "#F0F2ED",
+      "role": "Background"
+    },
+    {
+      "name": "Deep sea",
+      "hex": "#285259",
+      "role": "Logo & headings"
+    },
+    {
+      "name": "Sea glass",
+      "hex": "#D1E0DC",
+      "role": "Secondary surface"
+    },
+    {
+      "name": "Poppy",
+      "hex": "#B74330",
+      "role": "Accent"
+    },
+    {
+      "name": "Slate",
+      "hex": "#27383A",
+      "role": "Body text"
+    }
+  ],
+  "contrast": {
+    "headingOnPaper": 7.63,
+    "bodyOnPaper": 10.87,
+    "headingOnSurface": 6.31,
+    "accentOnPaper": 4.83
+  }
+}

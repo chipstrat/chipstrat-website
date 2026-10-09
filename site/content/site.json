@@ -1,0 +1,1076 @@
+{
+  "newsletter_base": "https://www.chipstrat.com",
+  "site_url": "https://chipstrat.com",
+  "semidoped_url": "https://semidoped.com",
+  "subscriber_line": "13,000+ subscribers",
+  "topics": [
+    {
+      "slug": "gpus-xpus-cpus",
+      "name": "GPUs, XPUs, CPUs",
+      "tags": [
+        "GPUs / XPUs / CPUs"
+      ],
+      "blurb": "Merchant GPUs, custom accelerators and the CPUs that sit beside them. Nvidia, AMD, Broadcom, Marvell and the AI chip startups."
+    },
+    {
+      "slug": "optics-and-networking",
+      "name": "Optics & Networking",
+      "tags": [
+        "Optics & Networking"
+      ],
+      "blurb": "How AI clusters are connected. Scale-up and scale-out networking, SerDes, AECs, pluggables, LPO and co-packaged optics."
+    },
+    {
+      "slug": "foundry",
+      "name": "Foundry",
+      "tags": [
+        "Foundry"
+      ],
+      "blurb": "Leading-edge manufacturing and who controls it. TSMC, Intel Foundry, Samsung, process nodes and lithography economics."
+    },
+    {
+      "slug": "memory",
+      "name": "Memory",
+      "tags": [
+        "Memory"
+      ],
+      "blurb": "DRAM, HBM and NAND in the AI buildout, and what memory supply means for system design and pricing."
+    },
+    {
+      "slug": "chiplets-and-packaging",
+      "name": "Chiplets & Packaging",
+      "tags": [
+        "Chiplets & Packaging"
+      ],
+      "blurb": "Advanced packaging and the chiplet ecosystem. CoWoS, EMIB, die-to-die interconnect and the economics of disaggregated design."
+    },
+    {
+      "slug": "autonomy-physical-ai",
+      "name": "Autonomy / Physical AI",
+      "tags": [
+        "Autonomy / Physical AI"
+      ],
+      "blurb": "Silicon and models for vehicles and robots. Rivian, Qualcomm automotive, LiDAR and vision transformers."
+    },
+    {
+      "slug": "edge-ai-and-devices",
+      "name": "Edge AI & Devices",
+      "tags": [
+        "Edge AI & Devices"
+      ],
+      "blurb": "Inference on phones, PCs and embedded hardware. NPUs, tokens per second per watt, Apple, Qualcomm and Arm."
+    },
+    {
+      "slug": "big-tech-and-cloud",
+      "name": "Big Tech & Cloud",
+      "tags": [
+        "Big Tech & Cloud"
+      ],
+      "blurb": "Hyperscaler capex, in-house silicon and AI demand. Microsoft, Amazon, Google, Meta and OpenAI."
+    },
+    {
+      "slug": "fundamentals",
+      "name": "Fundamentals",
+      "tags": [
+        "Fundamentals"
+      ],
+      "blurb": "Primers that assume no engineering degree. How chips, networks and optics work, and why the trade-offs matter."
+    },
+    {
+      "slug": "interviews",
+      "name": "Interviews",
+      "tags": [
+        "Interviews"
+      ],
+      "blurb": "Conversations with the engineers and executives building this hardware."
+    }
+  ],
+  "companies": [
+    {
+      "name": "Nvidia",
+      "aliases": [
+        "Nvidia",
+        "NVDA",
+        "Jensen"
+      ]
+    },
+    {
+      "name": "AMD",
+      "aliases": [
+        "AMD",
+        "Lisa Su",
+        "MI300X",
+        "MI300A",
+        "ROCm"
+      ]
+    },
+    {
+      "name": "Intel",
+      "aliases": [
+        "Intel",
+        "18A",
+        "14A"
+      ]
+    },
+    {
+      "name": "TSMC",
+      "aliases": [
+        "TSMC"
+      ]
+    },
+    {
+      "name": "Arm",
+      "aliases": [
+        "Arm",
+        "ARM"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "name": "Qualcomm",
+      "aliases": [
+        "Qualcomm",
+        "Snapdragon"
+      ]
+    },
+    {
+      "name": "Apple",
+      "aliases": [
+        "Apple",
+        "WWDC"
+      ]
+    },
+    {
+      "name": "Broadcom",
+      "aliases": [
+        "Broadcom",
+        "AVGO"
+      ]
+    },
+    {
+      "name": "Marvell",
+      "aliases": [
+        "Marvell"
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "aliases": [
+        "Microsoft",
+        "Azure"
+      ]
+    },
+    {
+      "name": "Amazon",
+      "aliases": [
+        "Amazon",
+        "AWS",
+        "Annapurna"
+      ]
+    },
+    {
+      "name": "Google",
+      "aliases": [
+        "Google",
+        "Alphabet",
+        "TPU",
+        "Gemini"
+      ]
+    },
+    {
+      "name": "Meta",
+      "aliases": [
+        "Meta",
+        "MTIA"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "name": "OpenAI",
+      "aliases": [
+        "OpenAI",
+        "ChatGPT"
+      ]
+    },
+    {
+      "name": "Micron",
+      "aliases": [
+        "Micron"
+      ]
+    },
+    {
+      "name": "SK Hynix",
+      "aliases": [
+        "SK Hynix",
+        "Hynix"
+      ]
+    },
+    {
+      "name": "Samsung",
+      "aliases": [
+        "Samsung"
+      ]
+    },
+    {
+      "name": "Synopsys",
+      "aliases": [
+        "Synopsys"
+      ]
+    },
+    {
+      "name": "Cadence",
+      "aliases": [
+        "Cadence"
+      ]
+    },
+    {
+      "name": "ASML",
+      "aliases": [
+        "ASML"
+      ]
+    },
+    {
+      "name": "Credo",
+      "aliases": [
+        "Credo"
+      ]
+    },
+    {
+      "name": "Astera Labs",
+      "aliases": [
+        "Astera"
+      ]
+    },
+    {
+      "name": "Lumentum",
+      "aliases": [
+        "Lumentum"
+      ]
+    },
+    {
+      "name": "Coherent",
+      "aliases": [
+        "Coherent"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "name": "Arista",
+      "aliases": [
+        "Arista"
+      ]
+    },
+    {
+      "name": "Cisco",
+      "aliases": [
+        "Cisco"
+      ]
+    },
+    {
+      "name": "Dell",
+      "aliases": [
+        "Dell"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "name": "Rivian",
+      "aliases": [
+        "Rivian"
+      ]
+    },
+    {
+      "name": "Tesla",
+      "aliases": [
+        "Tesla"
+      ]
+    },
+    {
+      "name": "SkyWater",
+      "aliases": [
+        "SkyWater"
+      ]
+    },
+    {
+      "name": "GlobalFoundries",
+      "aliases": [
+        "GlobalFoundries"
+      ]
+    },
+    {
+      "name": "Groq",
+      "aliases": [
+        "Groq"
+      ]
+    },
+    {
+      "name": "Cerebras",
+      "aliases": [
+        "Cerebras"
+      ]
+    },
+    {
+      "name": "Etched",
+      "aliases": [
+        "Etched"
+      ],
+      "case_sensitive": true
+    },
+    {
+      "name": "MatX",
+      "aliases": [
+        "MatX"
+      ]
+    },
+    {
+      "name": "Tenstorrent",
+      "aliases": [
+        "Tenstorrent"
+      ]
+    },
+    {
+      "name": "Ampere",
+      "aliases": [
+        "Ampere"
+      ]
+    },
+    {
+      "name": "Eliyan",
+      "aliases": [
+        "Eliyan"
+      ]
+    },
+    {
+      "name": "Bolt Graphics",
+      "aliases": [
+        "Bolt Graphics"
+      ]
+    },
+    {
+      "name": "DeepSeek",
+      "aliases": [
+        "DeepSeek"
+      ]
+    },
+    {
+      "name": "Lightmatter",
+      "aliases": [
+        "Lightmatter"
+      ]
+    },
+    {
+      "name": "Ayar Labs",
+      "aliases": [
+        "Ayar"
+      ]
+    },
+    {
+      "name": "Celestial AI",
+      "aliases": [
+        "Celestial"
+      ]
+    },
+    {
+      "name": "d-Matrix",
+      "aliases": [
+        "d-Matrix"
+      ]
+    },
+    {
+      "name": "SambaNova",
+      "aliases": [
+        "SambaNova"
+      ]
+    },
+    {
+      "name": "Positron",
+      "aliases": [
+        "Positron"
+      ]
+    },
+    {
+      "name": "Amkor",
+      "aliases": [
+        "Amkor"
+      ]
+    }
+  ],
+  "company_page_min_posts": 2,
+  "clients": [
+    {
+      "name": "Nvidia",
+      "confirmed": true,
+      "logo": "nvidia"
+    },
+    {
+      "name": "Microsoft",
+      "confirmed": true,
+      "logo": "microsoft"
+    },
+    {
+      "name": "AMD",
+      "confirmed": true,
+      "logo": "amd"
+    },
+    {
+      "name": "Intel",
+      "confirmed": true,
+      "logo": "intel"
+    },
+    {
+      "name": "Arm",
+      "confirmed": true,
+      "logo": "arm"
+    },
+    {
+      "name": "Qualcomm",
+      "confirmed": true,
+      "logo": "qualcomm"
+    },
+    {
+      "name": "Synopsys",
+      "confirmed": true,
+      "logo": "synopsys"
+    },
+    {
+      "name": "Credo",
+      "confirmed": true,
+      "logo": "credo"
+    },
+    {
+      "name": "Bolt Graphics",
+      "confirmed": true,
+      "logo": "boltgraphics"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I supported Chipstrat as I find the articles interesting, and our CTO and Chief Strategy Officer recommended it.",
+      "who": "Semiconductor senior leader"
+    },
+    {
+      "text": "I really value Austin’s work! Indispensable.",
+      "who": "Head of a large semiconductor company’s venture capital group"
+    },
+    {
+      "text": "Thoughtful writing on all things chips.",
+      "who": "Venture capitalist"
+    },
+    {
+      "text": "Austin’s clarity of thinking is exceptional, and his writing style is crisp and concise.",
+      "who": "Substack best seller"
+    }
+  ],
+  "outlets": [
+    "CNBC",
+    "BBC",
+    "Yahoo Finance",
+    "The Information TV",
+    "Schwab Network"
+  ],
+  "clients_order_note": "Sorted by market cap, largest first (companiesmarketcap.com, 2026-10-08); private companies last. Order is fixed in this file and is not refreshed automatically.",
+  "audience_note": "Organisation names only, derived from the email domains of a subscriber export on 2026-10-09. No addresses, names or counts are stored. Regenerate from a fresh export; never commit the export.",
+  "audience": [
+    {
+      "group": "Industry",
+      "rows": [
+        {
+          "label": "Hyperscalers, neoclouds and AI labs",
+          "names": [
+            "Google",
+            "Microsoft",
+            "Amazon",
+            "Meta",
+            "ByteDance",
+            "CoreWeave",
+            "Nebius",
+            "OpenAI",
+            "Liquid AI",
+            "Modular"
+          ],
+          "top": [
+            {
+              "name": "Google",
+              "logo": "google"
+            },
+            {
+              "name": "Microsoft",
+              "logo": "microsoft"
+            },
+            {
+              "name": "Amazon",
+              "logo": "amazon"
+            },
+            {
+              "name": "Meta",
+              "logo": "meta"
+            },
+            {
+              "name": "OpenAI",
+              "logo": "openai"
+            },
+            {
+              "name": "ByteDance",
+              "logo": "bytedance"
+            },
+            {
+              "name": "CoreWeave",
+              "logo": "coreweave"
+            },
+            {
+              "name": "Nebius",
+              "logo": "nebius"
+            }
+          ]
+        },
+        {
+          "label": "Chip companies",
+          "names": [
+            "Nvidia",
+            "AMD",
+            "Intel",
+            "Qualcomm",
+            "Arm",
+            "Broadcom",
+            "Marvell",
+            "TSMC",
+            "Samsung",
+            "SK Group",
+            "Micron",
+            "MediaTek",
+            "Huawei",
+            "HiSilicon",
+            "Texas Instruments",
+            "Analog Devices",
+            "NXP",
+            "STMicroelectronics",
+            "Infineon",
+            "Renesas",
+            "Microchip",
+            "GlobalFoundries",
+            "Credo",
+            "Astera Labs",
+            "Altera",
+            "SiFive",
+            "Ampere",
+            "Silicon Labs",
+            "Sandisk"
+          ],
+          "top": [
+            {
+              "name": "Nvidia",
+              "logo": "nvidia"
+            },
+            {
+              "name": "TSMC",
+              "logo": "tsmc"
+            },
+            {
+              "name": "Broadcom",
+              "logo": "broadcom"
+            },
+            {
+              "name": "Samsung",
+              "logo": "samsung"
+            },
+            {
+              "name": "AMD",
+              "logo": "amd"
+            },
+            {
+              "name": "Intel",
+              "logo": "intel"
+            },
+            {
+              "name": "Qualcomm",
+              "logo": "qualcomm"
+            },
+            {
+              "name": "Arm",
+              "logo": "arm"
+            },
+            {
+              "name": "Micron",
+              "logo": "micron"
+            },
+            {
+              "name": "Texas Instruments",
+              "logo": "ti"
+            }
+          ]
+        },
+        {
+          "label": "AI chip and photonics startups",
+          "names": [
+            "Etched",
+            "Groq",
+            "Ayar Labs",
+            "Lightmatter",
+            "d-Matrix",
+            "Fractile",
+            "Positron",
+            "Olix",
+            "Eridu",
+            "Vaire",
+            "Substrate"
+          ],
+          "top": [
+            {
+              "name": "Etched",
+              "logo": "etched"
+            },
+            {
+              "name": "Groq",
+              "logo": "groq"
+            },
+            {
+              "name": "Lightmatter",
+              "logo": "lightmatter"
+            },
+            {
+              "name": "Ayar Labs",
+              "logo": "ayarlabs"
+            },
+            {
+              "name": "d-Matrix",
+              "logo": "dmatrix"
+            },
+            {
+              "name": "Fractile",
+              "logo": "fractile"
+            },
+            {
+              "name": "Positron",
+              "logo": "positron"
+            },
+            {
+              "name": "Substrate",
+              "logo": "substrate"
+            }
+          ]
+        },
+        {
+          "label": "Equipment, EDA and materials",
+          "names": [
+            "Applied Materials",
+            "Lam Research",
+            "KLA",
+            "Tokyo Electron",
+            "ASML",
+            "ASM",
+            "Synopsys",
+            "Cadence",
+            "Siemens",
+            "Keysight",
+            "Advantest",
+            "Ansys",
+            "Amkor",
+            "Besi",
+            "Soitec",
+            "Corning",
+            "Zeiss",
+            "Edwards Vacuum"
+          ],
+          "top": [
+            {
+              "name": "ASML",
+              "logo": "asml"
+            },
+            {
+              "name": "Applied Materials",
+              "logo": "amat"
+            },
+            {
+              "name": "Lam Research",
+              "logo": "lam"
+            },
+            {
+              "name": "KLA",
+              "logo": "kla"
+            },
+            {
+              "name": "Tokyo Electron",
+              "logo": "tel"
+            },
+            {
+              "name": "Synopsys",
+              "logo": "synopsys"
+            },
+            {
+              "name": "Cadence",
+              "logo": "cadence"
+            },
+            {
+              "name": "Siemens",
+              "logo": "siemens"
+            },
+            {
+              "name": "Keysight",
+              "logo": "keysight"
+            },
+            {
+              "name": "Advantest",
+              "logo": "advantest"
+            }
+          ]
+        },
+        {
+          "label": "Systems, networking and OEMs",
+          "names": [
+            "Cisco",
+            "Dell",
+            "HPE",
+            "HP",
+            "IBM",
+            "Lenovo",
+            "Supermicro",
+            "Arista",
+            "Nokia",
+            "Ciena",
+            "Coherent",
+            "Jabil",
+            "Celestica",
+            "Apple",
+            "Tesla",
+            "Ford",
+            "BMW",
+            "John Deere",
+            "Sony",
+            "Panasonic"
+          ],
+          "top": [
+            {
+              "name": "Apple",
+              "logo": "apple"
+            },
+            {
+              "name": "Tesla",
+              "logo": "tesla"
+            },
+            {
+              "name": "Cisco",
+              "logo": "cisco"
+            },
+            {
+              "name": "IBM",
+              "logo": "ibm"
+            },
+            {
+              "name": "Dell",
+              "logo": "dell"
+            },
+            {
+              "name": "HPE",
+              "logo": "hpe"
+            },
+            {
+              "name": "Arista",
+              "logo": "arista"
+            },
+            {
+              "name": "Sony",
+              "logo": "sony"
+            },
+            {
+              "name": "Lenovo",
+              "logo": "lenovo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Investors and research",
+      "rows": [
+        {
+          "label": "Buy side",
+          "names": [
+            "Point72",
+            "Citadel",
+            "Millennium",
+            "Balyasny",
+            "D. E. Shaw",
+            "Two Sigma",
+            "Jane Street",
+            "Fidelity",
+            "Capital Group",
+            "T. Rowe Price",
+            "Wellington",
+            "BlackRock",
+            "Baillie Gifford",
+            "Schroders",
+            "Janus Henderson",
+            "Tiger Global",
+            "Coatue",
+            "Whale Rock",
+            "Altimeter",
+            "Light Street",
+            "Dragoneer",
+            "Maverick",
+            "Soroban",
+            "Marshall Wace",
+            "Adage",
+            "Third Point",
+            "Norges Bank Investment Management",
+            "GIC",
+            "Temasek",
+            "QIA",
+            "MGX",
+            "Blackstone",
+            "KKR",
+            "TPG"
+          ],
+          "top": [
+            {
+              "name": "BlackRock",
+              "logo": "blackrock"
+            },
+            {
+              "name": "Fidelity",
+              "logo": "fidelity"
+            },
+            {
+              "name": "Capital Group",
+              "logo": "capitalgroup"
+            },
+            {
+              "name": "Citadel",
+              "logo": "citadel"
+            },
+            {
+              "name": "Millennium",
+              "logo": "millennium"
+            },
+            {
+              "name": "Point72",
+              "logo": "point72"
+            },
+            {
+              "name": "D. E. Shaw",
+              "logo": "deshaw"
+            },
+            {
+              "name": "Two Sigma",
+              "logo": "twosigma"
+            },
+            {
+              "name": "Jane Street",
+              "logo": "janestreet"
+            },
+            {
+              "name": "Tiger Global",
+              "logo": "tigerglobal"
+            }
+          ]
+        },
+        {
+          "label": "Sell side",
+          "names": [
+            "Goldman Sachs",
+            "Morgan Stanley",
+            "J.P. Morgan",
+            "Bank of America",
+            "Citi",
+            "UBS",
+            "Barclays",
+            "Deutsche Bank",
+            "Jefferies",
+            "Evercore ISI",
+            "Bernstein",
+            "Wells Fargo",
+            "Susquehanna",
+            "Needham",
+            "Stifel",
+            "Raymond James",
+            "Wedbush",
+            "Oppenheimer",
+            "Baird",
+            "HSBC",
+            "Nomura",
+            "Macquarie",
+            "BNP Paribas",
+            "BMO",
+            "CIBC",
+            "TD Securities",
+            "Melius Research",
+            "Craig-Hallum",
+            "Benchmark",
+            "Arete"
+          ],
+          "top": [
+            {
+              "name": "Goldman Sachs",
+              "logo": "gs"
+            },
+            {
+              "name": "Morgan Stanley",
+              "logo": "ms"
+            },
+            {
+              "name": "J.P. Morgan",
+              "logo": "jpm"
+            },
+            {
+              "name": "Bank of America",
+              "logo": "bofa"
+            },
+            {
+              "name": "Citi",
+              "logo": "citi"
+            },
+            {
+              "name": "UBS",
+              "logo": "ubs"
+            },
+            {
+              "name": "Barclays",
+              "logo": "barclays"
+            },
+            {
+              "name": "Deutsche Bank",
+              "logo": "db"
+            },
+            {
+              "name": "Jefferies",
+              "logo": "jefferies"
+            },
+            {
+              "name": "Evercore ISI",
+              "logo": "evercore"
+            }
+          ]
+        },
+        {
+          "label": "Venture capital",
+          "names": [
+            "Sequoia",
+            "Andreessen Horowitz",
+            "Founders Fund",
+            "Lightspeed",
+            "Accel",
+            "Thrive",
+            "ICONIQ",
+            "Bessemer",
+            "Insight Partners",
+            "Felicis",
+            "Sutter Hill",
+            "DCVC",
+            "Playground Global",
+            "Celesta",
+            "In-Q-Tel",
+            "Primary",
+            "Sapphire",
+            "Northzone",
+            "The Engine",
+            "Toyota Ventures",
+            "TDK Ventures"
+          ],
+          "top": [
+            {
+              "name": "Sequoia",
+              "logo": "sequoia"
+            },
+            {
+              "name": "Andreessen Horowitz",
+              "logo": "a16z"
+            },
+            {
+              "name": "Founders Fund",
+              "logo": "foundersfund"
+            },
+            {
+              "name": "Lightspeed",
+              "logo": "lightspeed"
+            },
+            {
+              "name": "Accel",
+              "logo": "accel"
+            },
+            {
+              "name": "Thrive",
+              "logo": "thrive"
+            },
+            {
+              "name": "ICONIQ",
+              "logo": "iconiq"
+            },
+            {
+              "name": "Bessemer",
+              "logo": "bessemer"
+            },
+            {
+              "name": "Insight Partners",
+              "logo": "insight"
+            },
+            {
+              "name": "In-Q-Tel",
+              "logo": "iqt"
+            }
+          ]
+        },
+        {
+          "label": "Consulting, research and media",
+          "names": [
+            "McKinsey",
+            "BCG",
+            "Bain",
+            "EY",
+            "PwC",
+            "KPMG",
+            "SemiAnalysis",
+            "Gartner",
+            "TechInsights",
+            "Yole Group",
+            "Morningstar",
+            "CSIS",
+            "The Information",
+            "Financial Times",
+            "Thomson Reuters"
+          ],
+          "top": [
+            {
+              "name": "McKinsey",
+              "logo": "mckinsey"
+            },
+            {
+              "name": "BCG",
+              "logo": "bcg"
+            },
+            {
+              "name": "Bain",
+              "logo": "bain"
+            },
+            {
+              "name": "EY",
+              "logo": "ey"
+            },
+            {
+              "name": "PwC",
+              "logo": "pwc"
+            },
+            {
+              "name": "KPMG",
+              "logo": "kpmg"
+            },
+            {
+              "name": "Gartner",
+              "logo": "gartner"
+            },
+            {
+              "name": "SemiAnalysis",
+              "logo": "semianalysis"
+            },
+            {
+              "name": "The Information",
+              "logo": "theinformation"
+            },
+            {
+              "name": "Financial Times",
+              "logo": "ft"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

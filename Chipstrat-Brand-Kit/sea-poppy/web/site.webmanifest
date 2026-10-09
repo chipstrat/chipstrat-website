@@ -1,0 +1,22 @@
+{
+  "name": "Chipstrat",
+  "short_name": "Chipstrat",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F0F2ED",
+  "theme_color": "#285259",
+  "icons": [
+    {
+      "src": "app-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "app-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

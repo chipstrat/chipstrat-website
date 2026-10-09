@@ -1,0 +1,1001 @@
+{
+  "design": "05 / Circuit C",
+  "primaryPalette": "fjord-clay",
+  "palettes": [
+    {
+      "id": "fjord-clay",
+      "name": "Fjord & Clay",
+      "note": "Deep green, warm paper and a fired-clay accent. Balanced, grounded and distinctly editorial.",
+      "colors": [
+        "#F4F1E8",
+        "#193C36",
+        "#D7DFCC",
+        "#B95138",
+        "#252B28"
+      ],
+      "names": [
+        "Chalk",
+        "Fjord",
+        "Lichen",
+        "Clay",
+        "Graphite"
+      ],
+      "recommendation": "Your selected palette",
+      "roles": [
+        "Background",
+        "Logo & headings",
+        "Secondary surface",
+        "Accent",
+        "Body text"
+      ],
+      "contrast": {
+        "headingOnPaper": 10.68,
+        "bodyOnPaper": 12.78,
+        "headingOnSurface": 8.8,
+        "accentOnPaper": 4.33
+      }
+    },
+    {
+      "id": "sea-poppy",
+      "name": "Sea & Poppy",
+      "note": "A softened blue-green with a precise red accent. A fresh, expressive take on Nordic restraint.",
+      "colors": [
+        "#F0F2ED",
+        "#285259",
+        "#D1E0DC",
+        "#B74330",
+        "#27383A"
+      ],
+      "names": [
+        "Salt",
+        "Deep sea",
+        "Sea glass",
+        "Poppy",
+        "Slate"
+      ],
+      "recommendation": "Your selected palette",
+      "roles": [
+        "Background",
+        "Logo & headings",
+        "Secondary surface",
+        "Accent",
+        "Body text"
+      ],
+      "contrast": {
+        "headingOnPaper": 7.63,
+        "bodyOnPaper": 10.87,
+        "headingOnSurface": 6.31,
+        "accentOnPaper": 4.83
+      }
+    }
+  ],
+  "checked": "2026-10-06",
+  "assets": [
+    {
+      "group": "logos",
+      "key": "logo-primary",
+      "title": "Primary horizontal logo",
+      "width": 2400,
+      "height": 560,
+      "file": "logos/logo-primary-2400x560",
+      "note": "Transparent background; outlined Montserrat lettering.",
+      "recommended": true,
+      "source": "",
+      "jpg": false,
+      "transparent": true
+    },
+    {
+      "group": "logos",
+      "key": "logo-reversed",
+      "title": "Light horizontal logo",
+      "width": 2400,
+      "height": 560,
+      "file": "logos/logo-reversed-2400x560",
+      "note": "Transparent background; outlined Montserrat lettering.",
+      "recommended": false,
+      "source": "",
+      "jpg": false,
+      "transparent": true
+    },
+    {
+      "group": "logos",
+      "key": "logo-black",
+      "title": "Black horizontal logo",
+      "width": 2400,
+      "height": 560,
+      "file": "logos/logo-black-2400x560",
+      "note": "Transparent background; outlined Montserrat lettering.",
+      "recommended": false,
+      "source": "",
+      "jpg": false,
+      "transparent": true
+    },
+    {
+      "group": "logos",
+      "key": "logo-white",
+      "title": "White horizontal logo",
+      "width": 2400,
+      "height": 560,
+      "file": "logos/logo-white-2400x560",
+      "note": "Transparent background; outlined Montserrat lettering.",
+      "recommended": false,
+      "source": "",
+      "jpg": false,
+      "transparent": true
+    },
+    {
+      "group": "logos",
+      "key": "wordmark",
+      "title": "Wordmark only",
+      "width": 2400,
+      "height": 480,
+      "file": "logos/wordmark-2400x480",
+      "note": "Transparent, without the chip symbol.",
+      "recommended": false,
+      "source": "",
+      "jpg": false,
+      "transparent": true
+    },
+    {
+      "group": "logos",
+      "key": "square-light",
+      "title": "Square logo / light",
+      "width": 1024,
+      "height": 1024,
+      "file": "logos/square-light-1024x1024",
+      "note": "Circle-safe padding. Use for social profiles.",
+      "recommended": true,
+      "source": "",
+      "jpg": false,
+      "transparent": false
+    },
+    {
+      "group": "logos",
+      "key": "square-dark",
+      "title": "Square logo / dark",
+      "width": 1024,
+      "height": 1024,
+      "file": "logos/square-dark-1024x1024",
+      "note": "Circle-safe padding. Use for social profiles.",
+      "recommended": false,
+      "source": "",
+      "jpg": false,
+      "transparent": false
+    },
+    {
+      "group": "logos",
+      "key": "mark-transparent",
+      "title": "Transparent chip mark",
+      "width": 1024,
+      "height": 1024,
+      "file": "logos/mark-transparent-1024x1024",
+      "note": "Use on light backgrounds.",
+      "recommended": false,
+      "source": "",
+      "jpg": false,
+      "transparent": true
+    },
+    {
+      "group": "logos",
+      "key": "mark-white",
+      "title": "White chip mark",
+      "width": 1024,
+      "height": 1024,
+      "file": "logos/mark-white-1024x1024",
+      "note": "Use on dark backgrounds.",
+      "recommended": false,
+      "source": "",
+      "jpg": false,
+      "transparent": true
+    },
+    {
+      "group": "logos",
+      "key": "mark-compact",
+      "title": "Compact circuit mark",
+      "width": 512,
+      "height": 512,
+      "file": "logos/mark-compact-512x512",
+      "note": "Use at 32\u201364px or beside small lettering.",
+      "recommended": false,
+      "source": "",
+      "jpg": false,
+      "transparent": true
+    },
+    {
+      "group": "logos",
+      "key": "logo-stacked",
+      "title": "Stacked chip and wordmark",
+      "width": 1200,
+      "height": 1300,
+      "file": "logos/logo-stacked-1200x1300",
+      "note": "The original-style composition: detailed chip above the name.",
+      "recommended": true,
+      "source": "",
+      "jpg": false,
+      "transparent": true
+    },
+    {
+      "group": "logos",
+      "key": "logo-stacked-solid",
+      "title": "Stacked logo / solid",
+      "width": 1200,
+      "height": 1300,
+      "file": "logos/logo-stacked-solid-1200x1300",
+      "note": "Paper background; detailed chip above the name.",
+      "recommended": false,
+      "source": "",
+      "jpg": false,
+      "transparent": false
+    },
+    {
+      "group": "substack",
+      "key": "publication-logo",
+      "title": "Publication logo",
+      "width": 1024,
+      "height": 1024,
+      "file": "substack/publication-logo-1024x1024",
+      "note": "Upload as the square publication logo.",
+      "recommended": true,
+      "source": "https://support.substack.com/hc/en-us/articles/4408381685268-What-are-the-optimal-image-dimensions-for-my-Substack-publication",
+      "jpg": false,
+      "transparent": true
+    },
+    {
+      "group": "substack",
+      "key": "website-wordmark",
+      "title": "Website wordmark",
+      "width": 1344,
+      "height": 256,
+      "file": "substack/website-wordmark-1344x256",
+      "note": "The publication name for the website header.",
+      "recommended": true,
+      "source": "https://support.substack.com/hc/en-us/articles/360039015892-How-do-I-switch-my-publication-s-homepage-to-a-different-layout",
+      "jpg": false,
+      "transparent": true
+    },
+    {
+      "group": "substack",
+      "key": "website-logo",
+      "title": "Website header with chip",
+      "width": 1344,
+      "height": 256,
+      "file": "substack/website-logo-1344x256",
+      "note": "Alternative header including the chip symbol.",
+      "recommended": false,
+      "source": "https://support.substack.com/hc/en-us/articles/360039015892-How-do-I-switch-my-publication-s-homepage-to-a-different-layout",
+      "jpg": false,
+      "transparent": true
+    },
+    {
+      "group": "substack",
+      "key": "email-banner",
+      "title": "Email banner / transparent",
+      "width": 1100,
+      "height": 220,
+      "file": "substack/email-banner-1100x220",
+      "note": "Use in the email banner slot on a light background.",
+      "recommended": true,
+      "source": "https://support.substack.com/hc/en-us/articles/4408381685268-What-are-the-optimal-image-dimensions-for-my-Substack-publication",
+      "jpg": false,
+      "transparent": true
+    },
+    {
+      "group": "substack",
+      "key": "email-banner-solid",
+      "title": "Email banner / solid",
+      "width": 1100,
+      "height": 220,
+      "file": "substack/email-banner-solid-1100x220",
+      "note": "Opaque alternative with the brand paper color.",
+      "recommended": false,
+      "source": "https://support.substack.com/hc/en-us/articles/4408381685268-What-are-the-optimal-image-dimensions-for-my-Substack-publication",
+      "jpg": false,
+      "transparent": false
+    },
+    {
+      "group": "substack",
+      "key": "welcome-cover",
+      "title": "Welcome cover",
+      "width": 1200,
+      "height": 1200,
+      "file": "substack/welcome-cover-1200x1200",
+      "note": "Square welcome-page cover.",
+      "recommended": false,
+      "source": "https://support.substack.com/hc/en-us/articles/4408381685268-What-are-the-optimal-image-dimensions-for-my-Substack-publication",
+      "jpg": true,
+      "transparent": false
+    },
+    {
+      "group": "substack",
+      "key": "post-preview",
+      "title": "Post preview / wide",
+      "width": 1200,
+      "height": 630,
+      "file": "substack/post-preview-1200x630",
+      "note": "Wide social preview. Review the crop before publishing.",
+      "recommended": false,
+      "source": "https://support.substack.com/hc/en-us/articles/4408381685268-What-are-the-optimal-image-dimensions-for-my-Substack-publication",
+      "jpg": true,
+      "transparent": false
+    },
+    {
+      "group": "substack",
+      "key": "post-preview-14x10",
+      "title": "Post preview / 14:10",
+      "width": 1400,
+      "height": 1000,
+      "file": "substack/post-preview-14x10-1400x1000",
+      "note": "Alternate crop for 14:10 preview placements.",
+      "recommended": false,
+      "source": "https://support.substack.com/hc/en-us/articles/4408381685268-What-are-the-optimal-image-dimensions-for-my-Substack-publication",
+      "jpg": true,
+      "transparent": false
+    },
+    {
+      "group": "x",
+      "key": "profile-light",
+      "title": "X profile / light",
+      "width": 400,
+      "height": 400,
+      "file": "x/profile-light-400x400",
+      "note": "Designed to survive a circular profile crop.",
+      "recommended": true,
+      "source": "https://help.x.com/en/managing-your-account/common-issues-when-uploading-profile-photo",
+      "jpg": false,
+      "transparent": false
+    },
+    {
+      "group": "x",
+      "key": "banner-light",
+      "title": "X banner / light",
+      "width": 1500,
+      "height": 500,
+      "file": "x/banner-light-1500x500",
+      "note": "CHIPSTRAT with the independent-research description; clear space for the profile image.",
+      "recommended": true,
+      "source": "https://help.x.com/en/managing-your-account/common-issues-when-uploading-profile-photo",
+      "jpg": true,
+      "transparent": false
+    },
+    {
+      "group": "x",
+      "key": "profile-dark",
+      "title": "X profile / dark",
+      "width": 400,
+      "height": 400,
+      "file": "x/profile-dark-400x400",
+      "note": "Designed to survive a circular profile crop.",
+      "recommended": false,
+      "source": "https://help.x.com/en/managing-your-account/common-issues-when-uploading-profile-photo",
+      "jpg": false,
+      "transparent": false
+    },
+    {
+      "group": "x",
+      "key": "banner-dark",
+      "title": "X banner / dark",
+      "width": 1500,
+      "height": 500,
+      "file": "x/banner-dark-1500x500",
+      "note": "CHIPSTRAT with the independent-research description; clear space for the profile image.",
+      "recommended": false,
+      "source": "https://help.x.com/en/managing-your-account/common-issues-when-uploading-profile-photo",
+      "jpg": true,
+      "transparent": false
+    },
+    {
+      "group": "linkedin",
+      "key": "company-logo",
+      "title": "LinkedIn company logo",
+      "width": 400,
+      "height": 400,
+      "file": "linkedin/company-logo-400x400",
+      "note": "Use for the Chipstrat company page.",
+      "recommended": true,
+      "source": "https://www.linkedin.com/help/lms/answer/a570368",
+      "jpg": false,
+      "transparent": false
+    },
+    {
+      "group": "linkedin",
+      "key": "company-banner-light",
+      "title": "Company page banner / light",
+      "width": 1512,
+      "height": 256,
+      "file": "linkedin/company-banner-light-1512x256",
+      "note": "For a LinkedIn company page; not the personal profile slot.",
+      "recommended": true,
+      "source": "https://www.linkedin.com/help/lms/answer/a570368",
+      "jpg": true,
+      "transparent": false
+    },
+    {
+      "group": "linkedin",
+      "key": "personal-banner-light",
+      "title": "Personal profile banner / light",
+      "width": 1584,
+      "height": 396,
+      "file": "linkedin/personal-banner-light-1584x396",
+      "note": "For your personal LinkedIn background image.",
+      "recommended": true,
+      "source": "https://www.linkedin.com/help/linkedin/answer/a568217",
+      "jpg": true,
+      "transparent": false
+    },
+    {
+      "group": "linkedin",
+      "key": "company-banner-dark",
+      "title": "Company page banner / dark",
+      "width": 1512,
+      "height": 256,
+      "file": "linkedin/company-banner-dark-1512x256",
+      "note": "For a LinkedIn company page; not the personal profile slot.",
+      "recommended": false,
+      "source": "https://www.linkedin.com/help/lms/answer/a570368",
+      "jpg": true,
+      "transparent": false
+    },
+    {
+      "group": "linkedin",
+      "key": "personal-banner-dark",
+      "title": "Personal profile banner / dark",
+      "width": 1584,
+      "height": 396,
+      "file": "linkedin/personal-banner-dark-1584x396",
+      "note": "For your personal LinkedIn background image.",
+      "recommended": false,
+      "source": "https://www.linkedin.com/help/linkedin/answer/a568217",
+      "jpg": true,
+      "transparent": false
+    },
+    {
+      "group": "linkedin",
+      "key": "article-cover",
+      "title": "Article / newsletter cover",
+      "width": 2000,
+      "height": 600,
+      "file": "linkedin/article-cover-2000x600",
+      "note": "Branded base image; use the cover builder for article-specific headlines.",
+      "recommended": false,
+      "source": "",
+      "jpg": true,
+      "transparent": false
+    },
+    {
+      "group": "social",
+      "key": "link-preview",
+      "title": "Website / link preview",
+      "width": 1200,
+      "height": 630,
+      "file": "social/link-preview-1200x630",
+      "note": "Default Open Graph image for links and website sharing.",
+      "recommended": true,
+      "source": "",
+      "jpg": true,
+      "transparent": false
+    },
+    {
+      "group": "social",
+      "key": "square-post",
+      "title": "Square brand card",
+      "width": 1080,
+      "height": 1080,
+      "file": "social/square-post-1080x1080",
+      "note": "A reusable square post or announcement card.",
+      "recommended": false,
+      "source": "",
+      "jpg": true,
+      "transparent": false
+    },
+    {
+      "group": "social",
+      "key": "portrait-post",
+      "title": "Portrait brand card",
+      "width": 1080,
+      "height": 1350,
+      "file": "social/portrait-post-1080x1350",
+      "note": "A reusable 4:5 post card.",
+      "recommended": false,
+      "source": "",
+      "jpg": true,
+      "transparent": false
+    },
+    {
+      "group": "social",
+      "key": "landscape-card",
+      "title": "Landscape brand card",
+      "width": 1920,
+      "height": 1080,
+      "file": "social/landscape-card-1920x1080",
+      "note": "For presentation title slides or video title cards.",
+      "recommended": false,
+      "source": "",
+      "jpg": true,
+      "transparent": false
+    },
+    {
+      "group": "youtube",
+      "key": "profile",
+      "title": "YouTube profile",
+      "width": 800,
+      "height": 800,
+      "file": "youtube/profile-800x800",
+      "note": "Channel profile image.",
+      "recommended": false,
+      "source": "https://support.google.com/youtube/answer/10456525?hl=en",
+      "jpg": false,
+      "transparent": false
+    },
+    {
+      "group": "youtube",
+      "key": "channel-banner",
+      "title": "YouTube channel banner",
+      "width": 2560,
+      "height": 1440,
+      "file": "youtube/channel-banner-2560x1440",
+      "note": "Essential content sits inside a conservative central 1500 \u00d7 360 area.",
+      "recommended": false,
+      "source": "https://support.google.com/youtube/answer/10456525?hl=en",
+      "jpg": true,
+      "transparent": false
+    },
+    {
+      "group": "email",
+      "key": "signature-logo",
+      "title": "Email signature logo",
+      "width": 640,
+      "height": 128,
+      "file": "email/signature-logo-640x128",
+      "note": "Insert at about 320 \u00d7 64 display pixels in your email signature.",
+      "recommended": false,
+      "source": "",
+      "jpg": false,
+      "transparent": true
+    },
+    {
+      "group": "web",
+      "key": "favicon",
+      "title": "Web icon / 16px",
+      "width": 16,
+      "height": 16,
+      "file": "web/favicon-16x16",
+      "note": "For browser tabs, bookmarks or saved home-screen shortcuts.",
+      "recommended": false,
+      "source": "",
+      "jpg": false,
+      "transparent": false
+    },
+    {
+      "group": "web",
+      "key": "favicon",
+      "title": "Web icon / 32px",
+      "width": 32,
+      "height": 32,
+      "file": "web/favicon-32x32",
+      "note": "For browser tabs, bookmarks or saved home-screen shortcuts.",
+      "recommended": false,
+      "source": "",
+      "jpg": false,
+      "transparent": false
+    },
+    {
+      "group": "web",
+      "key": "favicon",
+      "title": "Web icon / 48px",
+      "width": 48,
+      "height": 48,
+      "file": "web/favicon-48x48",
+      "note": "For browser tabs, bookmarks or saved home-screen shortcuts.",
+      "recommended": false,
+      "source": "",
+      "jpg": false,
+      "transparent": false
+    },
+    {
+      "group": "web",
+      "key": "favicon",
+      "title": "Web icon / 64px",
+      "width": 64,
+      "height": 64,
+      "file": "web/favicon-64x64",
+      "note": "For browser tabs, bookmarks or saved home-screen shortcuts.",
+      "recommended": false,
+      "source": "",
+      "jpg": false,
+      "transparent": false
+    },
+    {
+      "group": "web",
+      "key": "apple-touch-icon",
+      "title": "Web icon / 180px",
+      "width": 180,
+      "height": 180,
+      "file": "web/apple-touch-icon-180x180",
+      "note": "For browser tabs, bookmarks or saved home-screen shortcuts.",
+      "recommended": false,
+      "source": "",
+      "jpg": false,
+      "transparent": false
+    },
+    {
+      "group": "web",
+      "key": "app-icon",
+      "title": "Web icon / 192px",
+      "width": 192,
+      "height": 192,
+      "file": "web/app-icon-192x192",
+      "note": "For browser tabs, bookmarks or saved home-screen shortcuts.",
+      "recommended": false,
+      "source": "",
+      "jpg": false,
+      "transparent": false
+    },
+    {
+      "group": "web",
+      "key": "app-icon",
+      "title": "Web icon / 512px",
+      "width": 512,
+      "height": 512,
+      "file": "web/app-icon-512x512",
+      "note": "For browser tabs, bookmarks or saved home-screen shortcuts.",
+      "recommended": false,
+      "source": "",
+      "jpg": false,
+      "transparent": false
+    }
+  ],
+  "topLevelAssets": [
+    {
+      "name": "Chipstrat-Horizontal-Logo",
+      "width": 2400,
+      "height": 276,
+      "transparent": true,
+      "source": "fjord-clay/logos/logo-primary-2400x560",
+      "use": "Primary horizontal logo"
+    },
+    {
+      "name": "Chipstrat-Horizontal-Logo-Light",
+      "width": 2400,
+      "height": 276,
+      "transparent": true,
+      "source": "fjord-clay/logos/logo-reversed-2400x560",
+      "use": "Light horizontal logo"
+    },
+    {
+      "name": "Chipstrat-Horizontal-Logo-Black",
+      "width": 2400,
+      "height": 276,
+      "transparent": true,
+      "source": "fjord-clay/logos/logo-black-2400x560",
+      "use": "Black horizontal logo"
+    },
+    {
+      "name": "Chipstrat-Horizontal-Logo-White",
+      "width": 2400,
+      "height": 276,
+      "transparent": true,
+      "source": "fjord-clay/logos/logo-white-2400x560",
+      "use": "White horizontal logo"
+    },
+    {
+      "name": "Chipstrat-Wordmark",
+      "width": 2400,
+      "height": 322,
+      "transparent": true,
+      "source": "fjord-clay/logos/wordmark-2400x480",
+      "use": "Wordmark only"
+    },
+    {
+      "name": "Chipstrat-Square-Logo",
+      "width": 2048,
+      "height": 2048,
+      "transparent": false,
+      "source": "fjord-clay/logos/square-light-1024x1024",
+      "use": "Square logo / light"
+    },
+    {
+      "name": "Chipstrat-Square-Logo-Dark",
+      "width": 2048,
+      "height": 2048,
+      "transparent": false,
+      "source": "fjord-clay/logos/square-dark-1024x1024",
+      "use": "Square logo / dark"
+    },
+    {
+      "name": "Chipstrat-Logo-Transparent",
+      "width": 2048,
+      "height": 2048,
+      "transparent": true,
+      "source": "fjord-clay/logos/mark-transparent-1024x1024",
+      "use": "Transparent chip mark"
+    },
+    {
+      "name": "Chipstrat-Logo-White-Transparent",
+      "width": 2048,
+      "height": 2048,
+      "transparent": true,
+      "source": "fjord-clay/logos/mark-white-1024x1024",
+      "use": "White chip mark"
+    },
+    {
+      "name": "Chipstrat-Logo-Compact",
+      "width": 378,
+      "height": 378,
+      "transparent": true,
+      "source": "fjord-clay/logos/mark-compact-512x512",
+      "use": "Compact circuit mark"
+    },
+    {
+      "name": "Chipstrat-Stacked-Logo-Transparent",
+      "width": 2400,
+      "height": 2568,
+      "transparent": true,
+      "source": "fjord-clay/logos/logo-stacked-1200x1300",
+      "use": "Stacked chip and wordmark"
+    },
+    {
+      "name": "Chipstrat-Stacked-Logo",
+      "width": 1200,
+      "height": 1300,
+      "transparent": false,
+      "source": "fjord-clay/logos/logo-stacked-solid-1200x1300",
+      "use": "Stacked logo / solid"
+    },
+    {
+      "name": "Chipstrat-Substack-Logo",
+      "width": 1024,
+      "height": 1024,
+      "transparent": true,
+      "source": "fjord-clay/substack/publication-logo-1024x1024",
+      "use": "Publication logo"
+    },
+    {
+      "name": "Chipstrat-Substack-Wordmark",
+      "width": 1344,
+      "height": 256,
+      "transparent": true,
+      "source": "fjord-clay/substack/website-wordmark-1344x256",
+      "use": "Website wordmark"
+    },
+    {
+      "name": "Chipstrat-Substack-Header-Logo",
+      "width": 1344,
+      "height": 256,
+      "transparent": true,
+      "source": "fjord-clay/substack/website-logo-1344x256",
+      "use": "Website header with chip"
+    },
+    {
+      "name": "Chipstrat-Substack-Email-Banner-Transparent",
+      "width": 1100,
+      "height": 220,
+      "transparent": true,
+      "source": "fjord-clay/substack/email-banner-1100x220",
+      "use": "Email banner / transparent"
+    },
+    {
+      "name": "Chipstrat-Substack-Email-Banner",
+      "width": 1100,
+      "height": 220,
+      "transparent": false,
+      "source": "fjord-clay/substack/email-banner-solid-1100x220",
+      "use": "Email banner / solid"
+    },
+    {
+      "name": "Chipstrat-Substack-Welcome-Cover",
+      "width": 1200,
+      "height": 1200,
+      "transparent": false,
+      "source": "fjord-clay/substack/welcome-cover-1200x1200",
+      "use": "Welcome cover"
+    },
+    {
+      "name": "Chipstrat-Substack-Post-Preview",
+      "width": 1200,
+      "height": 630,
+      "transparent": false,
+      "source": "fjord-clay/substack/post-preview-1200x630",
+      "use": "Post preview / wide"
+    },
+    {
+      "name": "Chipstrat-Substack-Post-Preview-14x10",
+      "width": 1400,
+      "height": 1000,
+      "transparent": false,
+      "source": "fjord-clay/substack/post-preview-14x10-1400x1000",
+      "use": "Post preview / 14:10"
+    },
+    {
+      "name": "Chipstrat-X-Logo",
+      "width": 2048,
+      "height": 2048,
+      "transparent": false,
+      "source": "fjord-clay/x/profile-light-400x400",
+      "use": "X profile / light"
+    },
+    {
+      "name": "Chipstrat-X-Banner",
+      "width": 1500,
+      "height": 500,
+      "transparent": false,
+      "source": "fjord-clay/x/banner-light-1500x500",
+      "use": "X banner / light"
+    },
+    {
+      "name": "Chipstrat-X-Logo-Dark",
+      "width": 2048,
+      "height": 2048,
+      "transparent": false,
+      "source": "fjord-clay/x/profile-dark-400x400",
+      "use": "X profile / dark"
+    },
+    {
+      "name": "Chipstrat-X-Banner-Dark",
+      "width": 1500,
+      "height": 500,
+      "transparent": false,
+      "source": "fjord-clay/x/banner-dark-1500x500",
+      "use": "X banner / dark"
+    },
+    {
+      "name": "Chipstrat-LinkedIn-Logo",
+      "width": 400,
+      "height": 400,
+      "transparent": false,
+      "source": "fjord-clay/linkedin/company-logo-400x400",
+      "use": "LinkedIn company logo"
+    },
+    {
+      "name": "Chipstrat-LinkedIn-Company-Banner",
+      "width": 1512,
+      "height": 256,
+      "transparent": false,
+      "source": "fjord-clay/linkedin/company-banner-light-1512x256",
+      "use": "Company page banner / light"
+    },
+    {
+      "name": "Chipstrat-LinkedIn-Personal-Banner",
+      "width": 1584,
+      "height": 396,
+      "transparent": false,
+      "source": "fjord-clay/linkedin/personal-banner-light-1584x396",
+      "use": "Personal profile banner / light"
+    },
+    {
+      "name": "Chipstrat-LinkedIn-Company-Banner-Dark",
+      "width": 1512,
+      "height": 256,
+      "transparent": false,
+      "source": "fjord-clay/linkedin/company-banner-dark-1512x256",
+      "use": "Company page banner / dark"
+    },
+    {
+      "name": "Chipstrat-LinkedIn-Personal-Banner-Dark",
+      "width": 1584,
+      "height": 396,
+      "transparent": false,
+      "source": "fjord-clay/linkedin/personal-banner-dark-1584x396",
+      "use": "Personal profile banner / dark"
+    },
+    {
+      "name": "Chipstrat-LinkedIn-Article-Cover",
+      "width": 2000,
+      "height": 600,
+      "transparent": false,
+      "source": "fjord-clay/linkedin/article-cover-2000x600",
+      "use": "Article / newsletter cover"
+    },
+    {
+      "name": "Chipstrat-Link-Preview",
+      "width": 1200,
+      "height": 630,
+      "transparent": false,
+      "source": "fjord-clay/social/link-preview-1200x630",
+      "use": "Website / link preview"
+    },
+    {
+      "name": "Chipstrat-Social-Square",
+      "width": 1080,
+      "height": 1080,
+      "transparent": false,
+      "source": "fjord-clay/social/square-post-1080x1080",
+      "use": "Square brand card"
+    },
+    {
+      "name": "Chipstrat-Social-Portrait",
+      "width": 1080,
+      "height": 1350,
+      "transparent": false,
+      "source": "fjord-clay/social/portrait-post-1080x1350",
+      "use": "Portrait brand card"
+    },
+    {
+      "name": "Chipstrat-Social-Landscape",
+      "width": 1920,
+      "height": 1080,
+      "transparent": false,
+      "source": "fjord-clay/social/landscape-card-1920x1080",
+      "use": "Landscape brand card"
+    },
+    {
+      "name": "Chipstrat-YouTube-Logo",
+      "width": 800,
+      "height": 800,
+      "transparent": false,
+      "source": "fjord-clay/youtube/profile-800x800",
+      "use": "YouTube profile"
+    },
+    {
+      "name": "Chipstrat-YouTube-Banner",
+      "width": 2560,
+      "height": 1440,
+      "transparent": false,
+      "source": "fjord-clay/youtube/channel-banner-2560x1440",
+      "use": "YouTube channel banner"
+    },
+    {
+      "name": "Chipstrat-Email-Signature",
+      "width": 640,
+      "height": 128,
+      "transparent": true,
+      "source": "fjord-clay/email/signature-logo-640x128",
+      "use": "Email signature logo"
+    },
+    {
+      "name": "Chipstrat-Web-Favicon-16",
+      "width": 16,
+      "height": 16,
+      "transparent": false,
+      "source": "fjord-clay/web/favicon-16x16",
+      "use": "Web icon / 16px"
+    },
+    {
+      "name": "Chipstrat-Web-Favicon-32",
+      "width": 32,
+      "height": 32,
+      "transparent": false,
+      "source": "fjord-clay/web/favicon-32x32",
+      "use": "Web icon / 32px"
+    },
+    {
+      "name": "Chipstrat-Web-Favicon-48",
+      "width": 48,
+      "height": 48,
+      "transparent": false,
+      "source": "fjord-clay/web/favicon-48x48",
+      "use": "Web icon / 48px"
+    },
+    {
+      "name": "Chipstrat-Web-Favicon-64",
+      "width": 64,
+      "height": 64,
+      "transparent": false,
+      "source": "fjord-clay/web/favicon-64x64",
+      "use": "Web icon / 64px"
+    },
+    {
+      "name": "Chipstrat-Web-Apple-Touch-Icon-180",
+      "width": 180,
+      "height": 180,
+      "transparent": false,
+      "source": "fjord-clay/web/apple-touch-icon-180x180",
+      "use": "Web icon / 180px"
+    },
+    {
+      "name": "Chipstrat-Web-App-Icon-192",
+      "width": 192,
+      "height": 192,
+      "transparent": false,
+      "source": "fjord-clay/web/app-icon-192x192",
+      "use": "Web icon / 192px"
+    },
+    {
+      "name": "Chipstrat-Web-App-Icon-512",
+      "width": 512,
+      "height": 512,
+      "transparent": false,
+      "source": "fjord-clay/web/app-icon-512x512",
+      "use": "Web icon / 512px"
+    }
+  ]
+}

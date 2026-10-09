@@ -1,0 +1,52 @@
+CHIPSTRAT BRAND KIT / CIRCUIT C
+Primary: Fjord & Clay. Alternate: Sea & Poppy.
+
+START HERE
+Open index.html for the asset library and individual downloads.
+Use quick-upload-fjord-clay.zip for the primary rollout images.
+The Sea & Poppy folder has the same filenames and dimensions.
+
+INDIVIDUAL ASSETS AT THE TOP LEVEL
+Every Chipstrat-*.png and matching .svg is an individual, ready-to-use asset.
+Chipstrat-Square-Logo.png: square chip-only logo, 2048 x 2048.
+Chipstrat-X-Logo.png: high-resolution chip-only profile image, 2048 x 2048.
+Chipstrat-X-Banner.png: CHIPSTRAT and research description, 1500 x 500.
+Horizontal, stacked, transparent and platform-specific files are alongside them.
+See INDIVIDUAL-ASSETS.txt and TOP-LEVEL-ASSETS.csv for the full file guide.
+SVG masters are real vectors. High-resolution PNGs are rendered from those SVGs.
+
+UPLOAD THE PNG FILES FROM THESE FOLDERS
+Substack publication logo: substack/publication-logo-1024x1024.png
+Substack website wordmark: substack/website-wordmark-1344x256.png
+Substack email banner: substack/email-banner-1100x220.png
+  Use email-banner-solid if you want the paper background baked in.
+Substack welcome cover: substack/welcome-cover-1200x1200.png
+X profile: x/profile-light-400x400.png
+X header: x/banner-light-1500x500.png
+LinkedIn company logo: linkedin/company-logo-400x400.png
+LinkedIn company cover: linkedin/company-banner-light-1512x256.png
+LinkedIn personal cover: linkedin/personal-banner-light-1584x396.png
+Square logo for other profiles: logos/square-light-1024x1024.png
+
+Both light and dark social treatments are included. PNG is the default for crisp
+logo edges; opaque banners also have JPEG alternatives. Use SVG masters in
+websites or design tools. Text is outlined, so logos need no installed font.
+
+DESIGN KIT
+design-kit/brand-guide.html: color, typography, spacing and logo rules.
+design-kit/components.html: reusable website components.
+design-kit/cover-builder.html: custom cover images with PNG/SVG exports.
+design-kit/tokens.css and tokens.json: reusable design values.
+fonts/: Montserrat, Inter and Newsreader originals plus OFL licenses.
+website-starter/: a self-contained, responsive HTML/CSS website template.
+
+EXTRAS
+Social preview images, square and portrait post cards, landscape title card,
+YouTube profile and banner, email-signature logo, favicons and app icons.
+asset-manifest.csv / .json contain the complete inventory and reference links.
+
+Platform dimensions were checked against official help pages on October 6, 2026.
+The visual guide links to those sources. Review each platform's final crop:
+display behavior varies. Substack's documentation mentions both 1200x630 and
+14:10 previews, so both exports are provided. The website starter is a template;
+it is not published and does not import posts or replace Substack subscriptions.

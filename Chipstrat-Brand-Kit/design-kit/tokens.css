@@ -1,0 +1,12 @@
+@font-face{font-family:'Inter';src:url('../fonts/inter-variable.woff2') format('woff2');font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:'Montserrat';src:url('../fonts/montserrat-variable.woff2') format('woff2');font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:'Newsreader';src:url('../fonts/newsreader-variable.woff2') format('woff2');font-weight:100 900;font-style:normal;font-display:swap;}
+:root{
+ --cs-paper:#F4F1E8;--cs-ink:#193C36;--cs-surface:#D7DFCC;--cs-accent:#B95138;--cs-text:#252B28;
+ --cs-font-body:Inter,Arial,sans-serif;--cs-font-display:Newsreader,Georgia,serif;--cs-font-logo:Montserrat,Arial,sans-serif;
+ --cs-space-1:4px;--cs-space-2:8px;--cs-space-3:12px;--cs-space-4:16px;--cs-space-5:24px;--cs-space-6:32px;--cs-space-7:48px;--cs-space-8:64px;--cs-space-9:96px;
+ --cs-content:1200px;--cs-reading:720px;--cs-radius:4px;--cs-line:color-mix(in srgb,var(--cs-ink) 20%,transparent);
+ --cs-bg:var(--cs-paper);--cs-fg:var(--cs-ink);--cs-body:var(--cs-text);--cs-panel:var(--cs-surface);
+}
+[data-palette="sea-poppy"]{--cs-paper:#F0F2ED;--cs-ink:#285259;--cs-surface:#D1E0DC;--cs-accent:#B74330;--cs-text:#27383A}
+[data-theme="dark"]{--cs-bg:var(--cs-ink);--cs-fg:var(--cs-paper);--cs-body:var(--cs-paper);--cs-panel:color-mix(in srgb,var(--cs-ink) 86%,white);--cs-line:color-mix(in srgb,var(--cs-paper) 25%,transparent)}

@@ -1,0 +1,89 @@
+Palette,Category,Asset,Width,Height,PNG file,Use,Specification source
+Fjord & Clay,logos,Primary horizontal logo,2400,560,fjord-clay/logos/logo-primary-2400x560.png,Transparent background; outlined Montserrat lettering.,
+Fjord & Clay,logos,Light horizontal logo,2400,560,fjord-clay/logos/logo-reversed-2400x560.png,Transparent background; outlined Montserrat lettering.,
+Fjord & Clay,logos,Black horizontal logo,2400,560,fjord-clay/logos/logo-black-2400x560.png,Transparent background; outlined Montserrat lettering.,
+Fjord & Clay,logos,White horizontal logo,2400,560,fjord-clay/logos/logo-white-2400x560.png,Transparent background; outlined Montserrat lettering.,
+Fjord & Clay,logos,Wordmark only,2400,480,fjord-clay/logos/wordmark-2400x480.png,"Transparent, without the chip symbol.",
+Fjord & Clay,logos,Square logo / light,1024,1024,fjord-clay/logos/square-light-1024x1024.png,Circle-safe padding. Use for social profiles.,
+Fjord & Clay,logos,Square logo / dark,1024,1024,fjord-clay/logos/square-dark-1024x1024.png,Circle-safe padding. Use for social profiles.,
+Fjord & Clay,logos,Transparent chip mark,1024,1024,fjord-clay/logos/mark-transparent-1024x1024.png,Use on light backgrounds.,
+Fjord & Clay,logos,White chip mark,1024,1024,fjord-clay/logos/mark-white-1024x1024.png,Use on dark backgrounds.,
+Fjord & Clay,logos,Compact circuit mark,512,512,fjord-clay/logos/mark-compact-512x512.png,Use at 32–64px or beside small lettering.,
+Fjord & Clay,logos,Stacked chip and wordmark,1200,1300,fjord-clay/logos/logo-stacked-1200x1300.png,The original-style composition: detailed chip above the name.,
+Fjord & Clay,logos,Stacked logo / solid,1200,1300,fjord-clay/logos/logo-stacked-solid-1200x1300.png,Paper background; detailed chip above the name.,
+Fjord & Clay,substack,Publication logo,1024,1024,fjord-clay/substack/publication-logo-1024x1024.png,Upload as the square publication logo.,https://support.substack.com/hc/en-us/articles/4408381685268-What-are-the-optimal-image-dimensions-for-my-Substack-publication
+Fjord & Clay,substack,Website wordmark,1344,256,fjord-clay/substack/website-wordmark-1344x256.png,The publication name for the website header.,https://support.substack.com/hc/en-us/articles/360039015892-How-do-I-switch-my-publication-s-homepage-to-a-different-layout
+Fjord & Clay,substack,Website header with chip,1344,256,fjord-clay/substack/website-logo-1344x256.png,Alternative header including the chip symbol.,https://support.substack.com/hc/en-us/articles/360039015892-How-do-I-switch-my-publication-s-homepage-to-a-different-layout
+Fjord & Clay,substack,Email banner / transparent,1100,220,fjord-clay/substack/email-banner-1100x220.png,Use in the email banner slot on a light background.,https://support.substack.com/hc/en-us/articles/4408381685268-What-are-the-optimal-image-dimensions-for-my-Substack-publication
+Fjord & Clay,substack,Email banner / solid,1100,220,fjord-clay/substack/email-banner-solid-1100x220.png,Opaque alternative with the brand paper color.,https://support.substack.com/hc/en-us/articles/4408381685268-What-are-the-optimal-image-dimensions-for-my-Substack-publication
+Fjord & Clay,substack,Welcome cover,1200,1200,fjord-clay/substack/welcome-cover-1200x1200.png,Square welcome-page cover.,https://support.substack.com/hc/en-us/articles/4408381685268-What-are-the-optimal-image-dimensions-for-my-Substack-publication
+Fjord & Clay,substack,Post preview / wide,1200,630,fjord-clay/substack/post-preview-1200x630.png,Wide social preview. Review the crop before publishing.,https://support.substack.com/hc/en-us/articles/4408381685268-What-are-the-optimal-image-dimensions-for-my-Substack-publication
+Fjord & Clay,substack,Post preview / 14:10,1400,1000,fjord-clay/substack/post-preview-14x10-1400x1000.png,Alternate crop for 14:10 preview placements.,https://support.substack.com/hc/en-us/articles/4408381685268-What-are-the-optimal-image-dimensions-for-my-Substack-publication
+Fjord & Clay,x,X profile / light,400,400,fjord-clay/x/profile-light-400x400.png,Designed to survive a circular profile crop.,https://help.x.com/en/managing-your-account/common-issues-when-uploading-profile-photo
+Fjord & Clay,x,X banner / light,1500,500,fjord-clay/x/banner-light-1500x500.png,CHIPSTRAT with the independent-research description; clear space for the profile image.,https://help.x.com/en/managing-your-account/common-issues-when-uploading-profile-photo
+Fjord & Clay,x,X profile / dark,400,400,fjord-clay/x/profile-dark-400x400.png,Designed to survive a circular profile crop.,https://help.x.com/en/managing-your-account/common-issues-when-uploading-profile-photo
+Fjord & Clay,x,X banner / dark,1500,500,fjord-clay/x/banner-dark-1500x500.png,CHIPSTRAT with the independent-research description; clear space for the profile image.,https://help.x.com/en/managing-your-account/common-issues-when-uploading-profile-photo
+Fjord & Clay,linkedin,LinkedIn company logo,400,400,fjord-clay/linkedin/company-logo-400x400.png,Use for the Chipstrat company page.,https://www.linkedin.com/help/lms/answer/a570368
+Fjord & Clay,linkedin,Company page banner / light,1512,256,fjord-clay/linkedin/company-banner-light-1512x256.png,For a LinkedIn company page; not the personal profile slot.,https://www.linkedin.com/help/lms/answer/a570368
+Fjord & Clay,linkedin,Personal profile banner / light,1584,396,fjord-clay/linkedin/personal-banner-light-1584x396.png,For your personal LinkedIn background image.,https://www.linkedin.com/help/linkedin/answer/a568217
+Fjord & Clay,linkedin,Company page banner / dark,1512,256,fjord-clay/linkedin/company-banner-dark-1512x256.png,For a LinkedIn company page; not the personal profile slot.,https://www.linkedin.com/help/lms/answer/a570368
+Fjord & Clay,linkedin,Personal profile banner / dark,1584,396,fjord-clay/linkedin/personal-banner-dark-1584x396.png,For your personal LinkedIn background image.,https://www.linkedin.com/help/linkedin/answer/a568217
+Fjord & Clay,linkedin,Article / newsletter cover,2000,600,fjord-clay/linkedin/article-cover-2000x600.png,Branded base image; use the cover builder for article-specific headlines.,
+Fjord & Clay,social,Website / link preview,1200,630,fjord-clay/social/link-preview-1200x630.png,Default Open Graph image for links and website sharing.,
+Fjord & Clay,social,Square brand card,1080,1080,fjord-clay/social/square-post-1080x1080.png,A reusable square post or announcement card.,
+Fjord & Clay,social,Portrait brand card,1080,1350,fjord-clay/social/portrait-post-1080x1350.png,A reusable 4:5 post card.,
+Fjord & Clay,social,Landscape brand card,1920,1080,fjord-clay/social/landscape-card-1920x1080.png,For presentation title slides or video title cards.,
+Fjord & Clay,youtube,YouTube profile,800,800,fjord-clay/youtube/profile-800x800.png,Channel profile image.,https://support.google.com/youtube/answer/10456525?hl=en
+Fjord & Clay,youtube,YouTube channel banner,2560,1440,fjord-clay/youtube/channel-banner-2560x1440.png,Essential content sits inside a conservative central 1500 × 360 area.,https://support.google.com/youtube/answer/10456525?hl=en
+Fjord & Clay,email,Email signature logo,640,128,fjord-clay/email/signature-logo-640x128.png,Insert at about 320 × 64 display pixels in your email signature.,
+Fjord & Clay,web,Web icon / 16px,16,16,fjord-clay/web/favicon-16x16.png,"For browser tabs, bookmarks or saved home-screen shortcuts.",
+Fjord & Clay,web,Web icon / 32px,32,32,fjord-clay/web/favicon-32x32.png,"For browser tabs, bookmarks or saved home-screen shortcuts.",
+Fjord & Clay,web,Web icon / 48px,48,48,fjord-clay/web/favicon-48x48.png,"For browser tabs, bookmarks or saved home-screen shortcuts.",
+Fjord & Clay,web,Web icon / 64px,64,64,fjord-clay/web/favicon-64x64.png,"For browser tabs, bookmarks or saved home-screen shortcuts.",
+Fjord & Clay,web,Web icon / 180px,180,180,fjord-clay/web/apple-touch-icon-180x180.png,"For browser tabs, bookmarks or saved home-screen shortcuts.",
+Fjord & Clay,web,Web icon / 192px,192,192,fjord-clay/web/app-icon-192x192.png,"For browser tabs, bookmarks or saved home-screen shortcuts.",
+Fjord & Clay,web,Web icon / 512px,512,512,fjord-clay/web/app-icon-512x512.png,"For browser tabs, bookmarks or saved home-screen shortcuts.",
+Sea & Poppy,logos,Primary horizontal logo,2400,560,sea-poppy/logos/logo-primary-2400x560.png,Transparent background; outlined Montserrat lettering.,
+Sea & Poppy,logos,Light horizontal logo,2400,560,sea-poppy/logos/logo-reversed-2400x560.png,Transparent background; outlined Montserrat lettering.,
+Sea & Poppy,logos,Black horizontal logo,2400,560,sea-poppy/logos/logo-black-2400x560.png,Transparent background; outlined Montserrat lettering.,
+Sea & Poppy,logos,White horizontal logo,2400,560,sea-poppy/logos/logo-white-2400x560.png,Transparent background; outlined Montserrat lettering.,
+Sea & Poppy,logos,Wordmark only,2400,480,sea-poppy/logos/wordmark-2400x480.png,"Transparent, without the chip symbol.",
+Sea & Poppy,logos,Square logo / light,1024,1024,sea-poppy/logos/square-light-1024x1024.png,Circle-safe padding. Use for social profiles.,
+Sea & Poppy,logos,Square logo / dark,1024,1024,sea-poppy/logos/square-dark-1024x1024.png,Circle-safe padding. Use for social profiles.,
+Sea & Poppy,logos,Transparent chip mark,1024,1024,sea-poppy/logos/mark-transparent-1024x1024.png,Use on light backgrounds.,
+Sea & Poppy,logos,White chip mark,1024,1024,sea-poppy/logos/mark-white-1024x1024.png,Use on dark backgrounds.,
+Sea & Poppy,logos,Compact circuit mark,512,512,sea-poppy/logos/mark-compact-512x512.png,Use at 32–64px or beside small lettering.,
+Sea & Poppy,logos,Stacked chip and wordmark,1200,1300,sea-poppy/logos/logo-stacked-1200x1300.png,The original-style composition: detailed chip above the name.,
+Sea & Poppy,logos,Stacked logo / solid,1200,1300,sea-poppy/logos/logo-stacked-solid-1200x1300.png,Paper background; detailed chip above the name.,
+Sea & Poppy,substack,Publication logo,1024,1024,sea-poppy/substack/publication-logo-1024x1024.png,Upload as the square publication logo.,https://support.substack.com/hc/en-us/articles/4408381685268-What-are-the-optimal-image-dimensions-for-my-Substack-publication
+Sea & Poppy,substack,Website wordmark,1344,256,sea-poppy/substack/website-wordmark-1344x256.png,The publication name for the website header.,https://support.substack.com/hc/en-us/articles/360039015892-How-do-I-switch-my-publication-s-homepage-to-a-different-layout
+Sea & Poppy,substack,Website header with chip,1344,256,sea-poppy/substack/website-logo-1344x256.png,Alternative header including the chip symbol.,https://support.substack.com/hc/en-us/articles/360039015892-How-do-I-switch-my-publication-s-homepage-to-a-different-layout
+Sea & Poppy,substack,Email banner / transparent,1100,220,sea-poppy/substack/email-banner-1100x220.png,Use in the email banner slot on a light background.,https://support.substack.com/hc/en-us/articles/4408381685268-What-are-the-optimal-image-dimensions-for-my-Substack-publication
+Sea & Poppy,substack,Email banner / solid,1100,220,sea-poppy/substack/email-banner-solid-1100x220.png,Opaque alternative with the brand paper color.,https://support.substack.com/hc/en-us/articles/4408381685268-What-are-the-optimal-image-dimensions-for-my-Substack-publication
+Sea & Poppy,substack,Welcome cover,1200,1200,sea-poppy/substack/welcome-cover-1200x1200.png,Square welcome-page cover.,https://support.substack.com/hc/en-us/articles/4408381685268-What-are-the-optimal-image-dimensions-for-my-Substack-publication
+Sea & Poppy,substack,Post preview / wide,1200,630,sea-poppy/substack/post-preview-1200x630.png,Wide social preview. Review the crop before publishing.,https://support.substack.com/hc/en-us/articles/4408381685268-What-are-the-optimal-image-dimensions-for-my-Substack-publication
+Sea & Poppy,substack,Post preview / 14:10,1400,1000,sea-poppy/substack/post-preview-14x10-1400x1000.png,Alternate crop for 14:10 preview placements.,https://support.substack.com/hc/en-us/articles/4408381685268-What-are-the-optimal-image-dimensions-for-my-Substack-publication
+Sea & Poppy,x,X profile / light,400,400,sea-poppy/x/profile-light-400x400.png,Designed to survive a circular profile crop.,https://help.x.com/en/managing-your-account/common-issues-when-uploading-profile-photo
+Sea & Poppy,x,X banner / light,1500,500,sea-poppy/x/banner-light-1500x500.png,CHIPSTRAT with the independent-research description; clear space for the profile image.,https://help.x.com/en/managing-your-account/common-issues-when-uploading-profile-photo
+Sea & Poppy,x,X profile / dark,400,400,sea-poppy/x/profile-dark-400x400.png,Designed to survive a circular profile crop.,https://help.x.com/en/managing-your-account/common-issues-when-uploading-profile-photo
+Sea & Poppy,x,X banner / dark,1500,500,sea-poppy/x/banner-dark-1500x500.png,CHIPSTRAT with the independent-research description; clear space for the profile image.,https://help.x.com/en/managing-your-account/common-issues-when-uploading-profile-photo
+Sea & Poppy,linkedin,LinkedIn company logo,400,400,sea-poppy/linkedin/company-logo-400x400.png,Use for the Chipstrat company page.,https://www.linkedin.com/help/lms/answer/a570368
+Sea & Poppy,linkedin,Company page banner / light,1512,256,sea-poppy/linkedin/company-banner-light-1512x256.png,For a LinkedIn company page; not the personal profile slot.,https://www.linkedin.com/help/lms/answer/a570368
+Sea & Poppy,linkedin,Personal profile banner / light,1584,396,sea-poppy/linkedin/personal-banner-light-1584x396.png,For your personal LinkedIn background image.,https://www.linkedin.com/help/linkedin/answer/a568217
+Sea & Poppy,linkedin,Company page banner / dark,1512,256,sea-poppy/linkedin/company-banner-dark-1512x256.png,For a LinkedIn company page; not the personal profile slot.,https://www.linkedin.com/help/lms/answer/a570368
+Sea & Poppy,linkedin,Personal profile banner / dark,1584,396,sea-poppy/linkedin/personal-banner-dark-1584x396.png,For your personal LinkedIn background image.,https://www.linkedin.com/help/linkedin/answer/a568217
+Sea & Poppy,linkedin,Article / newsletter cover,2000,600,sea-poppy/linkedin/article-cover-2000x600.png,Branded base image; use the cover builder for article-specific headlines.,
+Sea & Poppy,social,Website / link preview,1200,630,sea-poppy/social/link-preview-1200x630.png,Default Open Graph image for links and website sharing.,
+Sea & Poppy,social,Square brand card,1080,1080,sea-poppy/social/square-post-1080x1080.png,A reusable square post or announcement card.,
+Sea & Poppy,social,Portrait brand card,1080,1350,sea-poppy/social/portrait-post-1080x1350.png,A reusable 4:5 post card.,
+Sea & Poppy,social,Landscape brand card,1920,1080,sea-poppy/social/landscape-card-1920x1080.png,For presentation title slides or video title cards.,
+Sea & Poppy,youtube,YouTube profile,800,800,sea-poppy/youtube/profile-800x800.png,Channel profile image.,https://support.google.com/youtube/answer/10456525?hl=en
+Sea & Poppy,youtube,YouTube channel banner,2560,1440,sea-poppy/youtube/channel-banner-2560x1440.png,Essential content sits inside a conservative central 1500 × 360 area.,https://support.google.com/youtube/answer/10456525?hl=en
+Sea & Poppy,email,Email signature logo,640,128,sea-poppy/email/signature-logo-640x128.png,Insert at about 320 × 64 display pixels in your email signature.,
+Sea & Poppy,web,Web icon / 16px,16,16,sea-poppy/web/favicon-16x16.png,"For browser tabs, bookmarks or saved home-screen shortcuts.",
+Sea & Poppy,web,Web icon / 32px,32,32,sea-poppy/web/favicon-32x32.png,"For browser tabs, bookmarks or saved home-screen shortcuts.",
+Sea & Poppy,web,Web icon / 48px,48,48,sea-poppy/web/favicon-48x48.png,"For browser tabs, bookmarks or saved home-screen shortcuts.",
+Sea & Poppy,web,Web icon / 64px,64,64,sea-poppy/web/favicon-64x64.png,"For browser tabs, bookmarks or saved home-screen shortcuts.",
+Sea & Poppy,web,Web icon / 180px,180,180,sea-poppy/web/apple-touch-icon-180x180.png,"For browser tabs, bookmarks or saved home-screen shortcuts.",
+Sea & Poppy,web,Web icon / 192px,192,192,sea-poppy/web/app-icon-192x192.png,"For browser tabs, bookmarks or saved home-screen shortcuts.",
+Sea & Poppy,web,Web icon / 512px,512,512,sea-poppy/web/app-icon-512x512.png,"For browser tabs, bookmarks or saved home-screen shortcuts.",

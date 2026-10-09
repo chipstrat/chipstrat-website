@@ -1,0 +1,1 @@
+const menu=document.querySelector('.cs-menu');if(menu)menu.addEventListener('click',()=>{const expanded=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(expanded));document.getElementById('nav-links').classList.toggle('is-open',expanded);});

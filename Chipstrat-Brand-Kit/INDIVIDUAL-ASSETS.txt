@@ -1,0 +1,27 @@
+INDIVIDUAL CHIPSTRAT ASSETS / FJORD & CLAY
+
+Every Chipstrat-*.png and matching .svg here is one individual asset.
+These are ready to use, without presentation labels or review-board framing.
+
+QUICK PICKS
+Chipstrat-Square-Logo.png / .svg: chip only on the warm background, 2048 x 2048.
+Chipstrat-X-Logo.png / .svg: the same high-resolution, circle-safe profile logo.
+Chipstrat-X-Banner.png / .svg: CHIPSTRAT and research description, 1500 x 500.
+Chipstrat-Logo-Transparent.png / .svg: tightly cropped chip with transparency.
+Chipstrat-Horizontal-Logo.png / .svg: chip beside the name, transparent.
+Chipstrat-Stacked-Logo.png / .svg: chip above the name, warm background.
+
+The other filenames identify their platform and placement. TOP-LEVEL-ASSETS.csv
+lists the PNG dimensions and backgrounds. Social banners retain their required
+aspect ratio; profile images retain room for a circular crop. Transparent
+standalone logos are cropped around the artwork with a small clear margin.
+
+VECTOR AND PNG QUALITY
+SVG files contain real paths and shapes, with no embedded bitmap or blur filter.
+They remain sharp at any size. Every PNG here is freshly rendered from the SVG,
+never enlarged from the previous 400px PNG. Use PNG for social uploads; use SVG
+in websites, slides and design tools that support it. Enlarged previews of PNGs
+can look softer because they have a fixed number of pixels.
+
+The fjord-clay and sea-poppy folders retain the organized full palette sets.
+brand-kit-overview.png is the preview sheet, not an upload asset.

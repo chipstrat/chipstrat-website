@@ -1,0 +1,36 @@
+{
+  "name": "Fjord & Clay",
+  "colors": [
+    {
+      "name": "Chalk",
+      "hex": "#F4F1E8",
+      "role": "Background"
+    },
+    {
+      "name": "Fjord",
+      "hex": "#193C36",
+      "role": "Logo & headings"
+    },
+    {
+      "name": "Lichen",
+      "hex": "#D7DFCC",
+      "role": "Secondary surface"
+    },
+    {
+      "name": "Clay",
+      "hex": "#B95138",
+      "role": "Accent"
+    },
+    {
+      "name": "Graphite",
+      "hex": "#252B28",
+      "role": "Body text"
+    }
+  ],
+  "contrast": {
+    "headingOnPaper": 10.68,
+    "bodyOnPaper": 12.78,
+    "headingOnSurface": 8.8,
+    "accentOnPaper": 4.33
+  }
+}

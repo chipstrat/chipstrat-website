@@ -1,0 +1,49 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Hourly rebuild: the post list is fetched from Substack at build time,
+    # so new and re-tagged posts appear without a manual deploy.
+    - cron: '41 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - id: pages
+        uses: actions/configure-pages@v5
+      - name: Build site
+        working-directory: site
+        env:
+          # "/chipstrat-website" on the github.io address, empty once a custom domain is set
+          SITE_BASE: ${{ steps.pages.outputs.base_path }}
+        run: python3 build.py --refresh --release
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
