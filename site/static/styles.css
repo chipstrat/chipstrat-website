@@ -189,6 +189,12 @@ a.chip:hover{background:var(--surface)}
 .site-foot a{color:var(--muted)}
 
 @media (max-width:860px){
+  .chip{font-size:13px;padding:7px 10px}
+  .post-tags{gap:8px}
+  .kicker{font-size:12px;display:inline-flex;align-items:center;min-height:28px}
+  .site-foot nav a,.crumbs a,.more a,.post-title{display:inline-block;padding:4px 0}
+  .post time{font-size:13px}
+  .badge{font-size:12px}
   .section>.wrap{grid-template-columns:1fr;gap:16px}
   .section-label{position:static}
   .section{padding:48px 0}
