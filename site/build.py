@@ -5,7 +5,8 @@
   python3 build.py --refresh    re-download the post list from Substack first
   python3 build.py --release    hide anything not confirmed in content/site.json
 """
-import collections, datetime, html, json, os, pathlib, re, shutil, struct, sys, time, urllib.parse, urllib.request
+import collections, datetime, html, json, os, pathlib, re, shutil, struct, sys, urllib.parse
+from refresh_posts import refresh
 
 ROOT = pathlib.Path(__file__).parent
 DIST = ROOT / "dist"
@@ -22,23 +23,8 @@ NOINDEX = '\n<meta name="robots" content="noindex">' if BASE else ""
 # ---------- data ----------
 
 def refresh_posts():
-    """Re-download the post list. Pages are small because Substack returns short pages at larger sizes."""
-    posts, seen, off = [], set(), 0
-    while True:
-        req = urllib.request.Request(f"{NL}/api/v1/archive?sort=new&offset={off}&limit=12", headers={"User-Agent": "Mozilla/5.0"})
-        batch = json.load(urllib.request.urlopen(req, timeout=30))
-        if not batch:
-            break
-        posts += [p for p in batch if p["id"] not in seen]
-        seen.update(p["id"] for p in batch)
-        off += len(batch)
-        time.sleep(0.3)
-    path = ROOT / "content/posts.json"
-    before = len(json.loads(path.read_text())) if path.exists() else 0
-    if len(posts) < before * 0.9:
-        raise RuntimeError(f"Substack returned {len(posts)} posts, expected about {before}")
-    keep = ("id", "slug", "title", "subtitle", "post_date", "audience", "type", "postTags", "cover_image", "wordcount")
-    path.write_text(json.dumps([{k: p.get(k) for k in keep} for p in posts], ensure_ascii=False))
+    """Add/update recent RSS entries without discarding the historical archive."""
+    return refresh(ROOT / "content/posts.json")
 
 
 def slugify(s):
@@ -413,7 +399,8 @@ if __name__ == "__main__":
         try:
             refresh_posts()
         except Exception as err:
-            print(f"::warning::Could not refresh posts from Substack ({err}); the site was built from the committed post list and may be stale")
+            print(f"::error::Post refresh failed ({err}); no replacement site was built")
+            sys.exit(1)
     posts = load_posts()
     counts = collections.Counter(c for p in posts for c in p["companies"])
     PAGED = {c for c, n in counts.items() if n >= CFG["company_page_min_posts"]}
