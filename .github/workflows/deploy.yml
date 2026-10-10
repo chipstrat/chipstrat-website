@@ -4,8 +4,7 @@ on:
   push:
     branches: [main]
   schedule:
-    # Hourly rebuild: the post list is fetched from Substack at build time,
-    # so new and re-tagged posts appear without a manual deploy.
+    # Merge the latest public RSS entries into the full retained archive hourly.
     - cron: '41 * * * *'
   workflow_dispatch:
 
@@ -16,11 +15,13 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -28,19 +29,57 @@ jobs:
           python-version: '3.12'
       - id: pages
         uses: actions/configure-pages@v5
+      - name: Test post refresh
+        run: python3 -m unittest discover -s site -p 'test_*.py'
       - name: Build site
         working-directory: site
         env:
           # "/chipstrat-website" on the github.io address, empty once a custom domain is set
           SITE_BASE: ${{ steps.pages.outputs.base_path }}
         run: python3 build.py --refresh --release
+      - name: Save refreshed post index for persistence
+        uses: actions/upload-artifact@v4
+        with:
+          name: post-index
+          path: site/content/posts.json
+          retention-days: 7
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site/dist
 
-  deploy:
+  persist:
     needs: build
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: post-index
+          path: site/content
+      - name: Retain refreshed posts in the repository
+        run: |
+          # A concurrent user push must not be overwritten or deployed over.
+          remote_head=$(git ls-remote origin refs/heads/main | cut -f1)
+          test "$remote_head" = "$GITHUB_SHA"
+          if git diff --quiet -- site/content/posts.json; then
+            echo 'Post index unchanged; no commit needed.' >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- site/content/posts.json
+          git commit -m 'Refresh public Substack post index'
+          # GITHUB_TOKEN commits do not recursively trigger another workflow.
+          git push origin HEAD:main
+          echo 'Updated public post index saved to main.' >> "$GITHUB_STEP_SUMMARY"
+
+  deploy:
+    needs: [build, persist]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
